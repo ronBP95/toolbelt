@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  mode: 'jit',
   theme: {
     extend: {
       animation: {
@@ -13,7 +14,7 @@ module.exports = {
           '100%': { transform: 'translateX(-100%)' },
         },
         marquee2: {
-          '0%': { transform: 'translateX(100%)' },
+          '1%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
       },
