@@ -26,7 +26,23 @@ export default function Nav() {
             </div>
         </div>
         <div class="bg-sky-400 w-3/5">
-            Marquee
+            <div class="relative flex overflow-x-hidden">
+                    <div class="animate-marquee whitespace-nowrap">
+                        <span class="mx-4 text-xs">Marquee Item 1</span>
+                        <span class="mx-4 text-xs">Marquee Item 2</span>
+                        <span class="mx-4 text-xs">Marquee Item 3</span>
+                        <span class="mx-4 text-xs">Marquee Item 4</span>
+                        <span class="mx-4 text-xs">Marquee Item 5</span>
+                    </div>
+
+                    <div class="absolute top-0 animate-marquee2 whitespace-nowrap">
+                        <span class="mx-4 text-xs">Marquee Item 6</span>
+                        <span class="mx-4 text-xs">Marquee Item 7</span>
+                        <span class="mx-4 text-xs">Marquee Item 8</span>
+                        <span class="mx-4 text-xs">Marquee Item 9</span>
+                        <span class="mx-4 text-xs">Marquee Item 10</span>
+                    </div>
+            </div>
         </div>
         <div class="flex ml-8">
             <button type="button" class="hidden sm:flex text-white bg-red-600 font-medium rounded-lg text-sm w-24 px-6 py-2.5 text-center mr-7 transition duration-200 hover:scale-110 hover:bg-red-700 ">Sign In</button>
