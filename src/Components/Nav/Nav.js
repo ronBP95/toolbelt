@@ -3,7 +3,7 @@ import Logo from '../../images/logos/logo-no-background.png'
 
 export default function Nav() {
   return (
-    <div class="flex justify-between items-center w-full min-w-fit h-20 bg-gray-800">
+    <div class="flex fixed justify-between items-center w-full min-w-fit h-20 bg-gray-800">
         <div class="flex">
             <div class="ml-8">
                 <img src={Logo} alt="Logo" class="w-40 max-w-min"/>
